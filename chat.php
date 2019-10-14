@@ -30,7 +30,7 @@
                       <div class="form-minichat row ">
                         <label for="pseudo" class="col-sm-2 col-form-label">Pseudo:</label>
                         <div class="col-sm-10">
-                          <input type="text" class="form-pseudo" id="pseudo" placeholder="Pseuso" name="pseudo" minlength="2" value="<?= isset($_COOKIE['pseudo']) ? $_COOKIE['pseudo'] : ""; ?>" Required>
+                          <input type="text" class="form-pseudo" id="pseudo" placeholder="Pseudo" name="pseudo" minlength="2" value="<?= isset($_COOKIE['pseudo']) ? $_COOKIE['pseudo'] : ""; ?>" Required>
                         </div>
                       </div>
                       <div class="form-group row">
